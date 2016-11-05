@@ -1,0 +1,10 @@
+*********************************BUGS******************************************
+
+removeBack does not actually remove any nodes
+removeFront does not actually remove any nodes
+addBack does not add nodes to the back of list (adds them to the front instead)
+isEmpty always returns true
+
+By extension of those above not working:
+
+The destructor does not remove the nodes from the list
